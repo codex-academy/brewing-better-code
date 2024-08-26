@@ -38,8 +38,8 @@ Let’s get started and brew some better code!
 Fork this repository into your GitHub profile.
 
 * Create a `src` & `test` folder
-* Setup TypeScript
-* Use `ts-mocha`
+* Setup TypeScript for your project
+* Use `ts-mocha` to setup the unit tests using Mocha.
 
 Work in this order:
 
