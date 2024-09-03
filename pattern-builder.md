@@ -21,13 +21,14 @@ export class Coffee {
         this.sugar = 0;
         this.milk = false;
     }
-}```
+}
+```
 
-*Explanation*: The Coffee class contains all the properties that define a cup of coffee. These properties will be set using the builder.
+**Explanation**: The Coffee class contains all the properties that define a cup of coffee. These properties will be set using the builder.
 
 Create the CoffeeBuilder class:
 
-The CoffeeBuilder class provides methods to set each property of the Coffee object.
+The `CoffeeBuilder` class provides methods to set each property of the Coffee object.
 
 ```typescript
 // src/CoffeeBuilder.ts
@@ -66,9 +67,9 @@ export class CoffeeBuilder {
 }
 ```
 
-Explanation: The CoffeeBuilder class provides a fluent interface to build a Coffee object step by step. Each method sets a property of the Coffee object and returns the builder itself.
+**Explanation**: The `CoffeeBuilder` class provides a fluent interface to build a Coffee object step by step. Each method sets a property of the Coffee object and returns the builder itself.
 
-Create the Director class (optional):
+## Create the Director class (optional):
 
 The CoffeeDirector class can be used to construct a Coffee object with a specific configuration.
 
@@ -93,4 +94,5 @@ export class CoffeeDirector {
     }
 }
 ```
-Explanation: The CoffeeDirector class simplifies the process of creating specific types of coffee by providing predefined configurations.
+
+**Explanation:** The CoffeeDirector class simplifies the process of creating specific types of coffee by providing predefined configurations.
