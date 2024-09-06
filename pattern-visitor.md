@@ -1,3 +1,17 @@
+# Introduction to the Visitor Pattern
+
+The `Visitor Pattern` is a behavioral design pattern that allows you to add further operations to objects without modifying their classes. Instead of embedding the logic within the objects themselves, you define a separate visitor that performs actions on them. This pattern is especially useful when dealing with groups of objects that may need different types of operations or behavior added over time, all without altering the underlying object structures.
+
+In this tutorial, we will explore the `Visitor Pattern` through a coffee shop example. Imagine you run a coffee shop offering different types of coffee, and over time, you need to apply new operations like calculating discounts or measuring calories. Instead of hardcoding these operations inside each coffee type (which would make the code less flexible), you can define visitors that handle these operations externally.
+
+By the end of this tutorial, you'll see how to:
+
+* Implement the Visitor Pattern using TypeScript.
+* Apply visitors to objects like `Espresso, Latte, and Cappuccino` to perform operations such as discount calculation and calorie counting.
+* Extend your codebase with new operations while keeping your coffee objects clean and easy to maintain.
+
+Let's dive in and see how the Visitor Pattern helps us create a flexible and extensible coffee shop system!
+
 ## Step 1: Define the Coffee Interface and Coffee Types
 
 Start by defining the Coffee interface and different types of coffee.
