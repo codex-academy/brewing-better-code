@@ -47,7 +47,7 @@ Work in this order:
 * Start with the [Strategy Pattern](./pattern-strategy.md)
 * Next will be the [Builder Pattern](pattern-builder.md)
 * Then work on the [Decorator Pattern](pattern-decorator.md)
-* Followed by the `Visitor Pattern`
+* Followed by the [Visitor Pattern](pattern-visitor.md)
 
 Currently there are only 3 patterns in this repo for you to work on, 2 more will be added.
 Once those are added get the instructions in your local repo by syncing your repo to the [upstream repo](https://stackoverflow.com/questions/52981111/how-can-i-merge-changes-from-an-upstream-branch-to-my-forks-branch).
