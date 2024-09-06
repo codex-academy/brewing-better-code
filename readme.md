@@ -43,10 +43,10 @@ Fork this repository into your GitHub profile.
 
 Work in this order:
 
-* Start with the [Strategy Pattern](./pattern-strategy.md)
 * Next do the [Singleton Pattern](pattern-singleton.md)
+* Start with the [Strategy Pattern](./pattern-strategy.md)
+* Next will be the [Builder Pattern](pattern-builder.md)
 * Then work on the [Decorator Pattern](pattern-decorator.md)
-* Next will be the `Builder Pattern`
 * Followed by the `Visitor Pattern`
 
 Currently there are only 3 patterns in this repo for you to work on, 2 more will be added.
