@@ -124,7 +124,7 @@ cappuccino.accept(calorieVisitor); // Cappuccino has 100 calories
 
 ## Summary
 
-The Visitor Pattern separates functionality (like discounts or calorie calculations) from the coffee classes themselves.
+The `Visitor` Pattern separates functionality (like discounts or calorie calculations) from the coffee classes themselves.
 
 * Each `Coffee` class accepts a visitor, and the visitor performs operations based on the type of coffee.
 * This pattern makes it easy to extend the system with new operations (like adding a new visitor) without modifying the coffee classes.
