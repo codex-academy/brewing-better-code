@@ -88,12 +88,12 @@ export class CoffeeDirector {
         this.builder = builder;
     }
 
-    public makeEspresso(): CoffeeBuilder {
-        return this.builder.setType('Espresso').setSize('Small').addSugar(1).addMilk();
+    public makeCoffeeWithMilk(type: string = '', size: string = '', sugar: number = 0): CoffeeBuilder {
+        return this.builder.setType(type).setSize(size).addSugar(sugar).addMilk();
     }
 
-    public makeLatte(): CoffeeBuilder {
-        return this.builder.setType('Latte').setSize('Large').addSugar(2).addMilk();
+    public makeCoffeeWithoutMilk(type: string = '', size: string = '', sugar: number = 0): CoffeeBuilder {
+        return this.builder.setType(type).setSize(size).addSugar(sugar);
     }
 }
 ```
