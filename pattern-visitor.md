@@ -136,6 +136,32 @@ cappuccino.accept(calorieVisitor); // Cappuccino has 100 calories
 
 ```
 
+## Step 4: Tests for the Visitor Pattern Coffee Example
+
+Here is a list of tests that should be written to ensure the functionality of the Visitor Pattern implementation using **MochaJS** and **TypeScript**:
+
+- **Test Espresso with DiscountVisitor**:
+  - Ensure `DiscountVisitor` applies the correct discount to an `Espresso`.
+
+- **Test Latte with DiscountVisitor**:
+  - Ensure `DiscountVisitor` applies the correct discount to a `Latte`.
+
+- **Test Cappuccino with DiscountVisitor**:
+  - Ensure `DiscountVisitor` applies the correct discount to a `Cappuccino`.
+
+- **Test Espresso with CalorieVisitor**:
+  - Ensure `CalorieVisitor` correctly calculates the calories for an `Espresso`.
+
+- **Test Latte with CalorieVisitor**:
+  - Ensure `CalorieVisitor` correctly calculates the calories for a `Latte`.
+
+- **Test Cappuccino with CalorieVisitor**:
+  - Ensure `CalorieVisitor` correctly calculates the calories for a `Cappuccino`.
+
+- **Test Multiple Visitors on Coffee**:
+  - Ensure that both `DiscountVisitor` and `CalorieVisitor` can be applied in sequence to each coffee type without issues.
+
+
 ## Summary
 
 The `Visitor` Pattern separates functionality (like discounts or calorie calculations) from the coffee classes themselves.
