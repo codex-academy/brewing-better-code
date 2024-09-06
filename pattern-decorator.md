@@ -139,7 +139,30 @@ This allows us to build complex combinations of coffee orders without needing an
 **Scalability:** You can add as many decorators as needed without having to modify the existing code.
 **Single Responsibility:** Each decorator has a single responsibility, making it easier to manage and understand.
 
-**Conclusion:**
+## Step 5: Tests to Write Using MochaJS & TypeScript
+
+Here is a list of tests that should be written to ensure the functionality of the coffee ordering system, using **MochaJS** and **TypeScript**.
+
+- **Test Basic Coffee**: 
+  - Ensure a `SimpleCoffee` returns the correct description and cost.
+
+- **Test Coffee with Milk**: 
+  - Verify that adding milk to a coffee updates the description and cost.
+
+- **Test Coffee with Sugar**: 
+  - Check that adding sugar to a coffee updates the description and cost.
+
+- **Test Coffee with Cream**: 
+  - Confirm that adding cream to a coffee updates the description and cost.
+
+- **Test Coffee with Multiple Extras**:
+  - Ensure that adding milk, sugar, and cream to a coffee updates both the description and cost accurately.
+
+- **Test Order of Decorators**:
+  - Ensure the order of applying decorators does not affect the final result (the description and cost should remain the same regardless of the order of decorators).
+
+
+## Conclusion
 
 The `Decorator Pattern` is a powerful design pattern that helps manage complex behavior dynamically without bloating your codebase with numerous subclasses. In the coffee shop example, it allowed us to create a system where customers can add extras like milk, sugar, and cream to their orders easily and flexibly.
 
